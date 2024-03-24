@@ -1,0 +1,33 @@
+html {
+    background-color:hsl(212, 45%, 89%);
+}
+
+body {
+    width: 320px;
+    height: 560px;
+    background-color: white;
+    margin: 100px auto;
+    border-radius:20px;
+    box-shadow: 0px 25px 25px rgba(0,0,0,4.77%);
+}
+
+.card{
+    padding-top:16px;
+}
+
+.caption{
+    color:hsl(218, 44%, 22%);
+    width:288px;
+    margin:auto;
+}
+
+img {
+    width:288px;
+    display:block;
+    margin:auto;
+    border-radius:10px;
+}
+
+p {
+    width: 256px;
+}
