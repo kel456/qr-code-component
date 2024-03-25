@@ -4,11 +4,16 @@ html {
 
 body {
     width: 320px;
-    height: 560px;
+    height: 497px;
     background-color: white;
     margin: 100px auto;
     border-radius:20px;
     box-shadow: 0px 25px 25px rgba(0,0,0,4.77%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
 }
 
 .card{
@@ -16,7 +21,6 @@ body {
 }
 
 .caption{
-    color:hsl(218, 44%, 22%);
     width:288px;
     margin:auto;
 }
@@ -28,6 +32,17 @@ img {
     border-radius:10px;
 }
 
+h1 {
+    color:hsl(218, 44%, 22%);
+    width:288px;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 10px;
+  }
+
 p {
+    color: hsl(219, 15%, 55%);
     width: 256px;
+    font-size: 15px;
+    margin:auto;
 }
